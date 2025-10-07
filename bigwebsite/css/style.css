@@ -1,0 +1,68 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'EB-Garamond', serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 2000px;
+  height: 2000px;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  position: relative;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  background-color: #333;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+#secret-div {
+  position: absolute;
+  top: 1200px;
+  left: 900px;
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #ef2828;
+  border-radius: 10px;;
+  padding: 20px;
+}
+
+.another-secret {
+  position: absolute;
+  top: 1200px;
+  left: 200px;
+  font-style: italic;
+  font-weight: bold;
+  color: #f00;
+  text-decoration: underline;
+}
+
+span {
+    position: absolute;
+    top: 300px;
+    left: 1500px;
+    font-weight: normal;
+    color: green;
+}
+
+img {
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
