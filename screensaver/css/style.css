@@ -20,7 +20,7 @@ p {
 }
 
 .ball1:hover {
-       animation: hit 1.5s ease-in-out infinite alternate;
+       animation: hit 1.75s ease-in-out infinite alternate;
 
 }
 
@@ -35,7 +35,7 @@ p {
 
 @keyframes hit {
     0% { transform: translateX(0); }
-    100% { transform: translateX(170px); }
+    100% { transform: translateX(150px); }
 }
 
 @keyframes roll {
